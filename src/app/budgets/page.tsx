@@ -94,7 +94,7 @@ export default function BudgetsPage() {
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h1 className="text-3xl font-bold">Budgets - {currentMonth} {currentYear}</h1>
+        <h1 className="text-3xl font-bold text-black">Budgets - {currentMonth} {currentYear}</h1>
         <Button onClick={() => setIsFormOpen(true)}>
           <Plus className="mr-2 h-4 w-4" />
           Set Budget
